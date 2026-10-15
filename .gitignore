@@ -1,0 +1,21 @@
+# Generated Android builds and release downloads
+/android/build/
+/android/dist/
+/android/assets/game.love
+/releases/
+# Local tools and downloaded release metadata
+/tools/apktool.jar
+/tools/love-embed.apk
+/tools/luajit
+/tools/*-release.json
+/tools/android-releases.json
+# Intermediate art previews
+/art/*-draw.jsonl
+# Local credentials and caches
+*.keystore
+*.jks
+.env
+.env.*
+__pycache__/
+*.pyc
+.DS_Store
